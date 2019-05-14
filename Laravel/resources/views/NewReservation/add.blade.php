@@ -38,7 +38,6 @@
     <tr>
       <th><label for="court">コートの種類</label></th>
       <td>
-      <!-- データの保存ができるようになった -->
         <select id="court" name="court">
           <option>{{old('court')}}</option>
           <option>全面1番</option>
@@ -47,15 +46,6 @@
           <option>オートテニス2番</option>
           <option>オートテニス3番</option>
         </select>
-        <!-- データの保存ができるが選択しにくい -->
-        <!-- <input type="text" name="court" autocomplete="on" list="keywords" value="{{old('court')}}">
-        <datalist id="keywords">
-          <option>全面1番</option>
-          <option>全面2番</option>
-          <option>オートテニス1番</option>
-          <option>オートテニス2番</option>
-          <option>オートテニス3番</option>
-        </datalist> -->
       </td>
     </tr>
     <tr>

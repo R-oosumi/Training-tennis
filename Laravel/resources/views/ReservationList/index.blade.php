@@ -13,7 +13,6 @@
     <input type="submit" value="新規予約">
   </a>
 </p>
-<!-- 見やすいと思ったから -->
 <table border="1" align="center">
   <tr>
     <th>予約者</th>

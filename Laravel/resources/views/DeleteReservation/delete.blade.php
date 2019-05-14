@@ -7,14 +7,13 @@
 <a href="/reslist">
   <input type="submit" value="戻る">
 </a>
-<!-- 真ん中が見やすいと思うから -->
 <table border="1" align="center">
   <form action="deleteres" method="post">
     {{ csrf_field() }}
     <input type="hidden" name="id" value="{{$item->id}}">
     <tr>
       <th>予約者</th>
-      <td>{{$item->name}}</td>
+      <td>{{$item->name}}様</td>
     </tr>
     <tr>
       <th>予約日</th>
