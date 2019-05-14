@@ -3,11 +3,9 @@
 @section('title', '編集')
 
 @section('content')
-<!-- 左のままなのは左側が多いと思ったから -->
 <a href="/reslist">
   <input type="submit" value="戻る">
 </a>
-<!-- 真ん中が見やすいと思うから -->
 <table border="1" align="center">
   <form action="/editres" method="post">
     {{ csrf_field() }}

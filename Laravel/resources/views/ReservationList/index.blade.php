@@ -7,7 +7,6 @@
 @section('title', '予約一覧')
 
 @section('content')
-<!-- 場所はどこでもいいと思う　右側に多いと思ったから -->
 <p align="right">
   <a href="/newres">
     <input type="submit" value="新規予約">

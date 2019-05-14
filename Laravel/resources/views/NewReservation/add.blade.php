@@ -3,11 +3,9 @@
 @section('title', '新規予約')
 
 @section('content')
-<!-- 左のままなのは左側が多いと思ったから -->
 <a href="/reslist">
   <input type="submit" value="戻る">
 </a>
-<!-- 真ん中が見やすいと思うから -->
 <table border="1" align="center">
   <form action="/newres" method="post">
     {{ csrf_field() }}

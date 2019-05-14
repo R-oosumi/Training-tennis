@@ -3,7 +3,6 @@
 @section('title', '削除')
 
 @section('content')
-<!-- 左のままなのは左側が多いと思ったから -->
 <a href="/reslist">
   <input type="submit" value="戻る">
 </a>
